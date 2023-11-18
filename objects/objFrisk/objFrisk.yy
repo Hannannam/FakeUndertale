@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sstand",
-    "path": "sprites/Sstand/Sstand.yy",
+    "name": "Sfstand",
+    "path": "sprites/Sfstand/Sfstand.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,3 +1,3 @@
 target_room = rmFlower;
-target_x = 158;
-target_y = 382;
+target_x = 65;
+target_y = 110;

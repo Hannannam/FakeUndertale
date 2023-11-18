@@ -1,3 +1,3 @@
 target_room = rmWakeUp;
-target_x = 1148;
-target_y = 352;
+target_x = 558;
+target_y = 98;

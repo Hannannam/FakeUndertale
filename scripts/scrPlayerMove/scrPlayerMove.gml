@@ -23,7 +23,27 @@ function basic_motion(_speed, _collision_obj){
 		_move_y = 0;
 	}
 	
-
+	
 	x += _move_x;
 	y += _move_y;
+	
+	if (_move_x > 0) {
+		sprite_index = Swalkx;
+		image_xscale = 1;
+	} else if (_move_x < 0) {
+		sprite_index = Swalkx;
+		image_xscale = -1;
+	} else if (_move_y > 0) {
+		sprite_index = Sfwalky;
+		image_xscale = 1;
+	} else if (_move_y < 0) {
+		sprite_index = Sbwalky;
+		image_xscale = 1;
+	} else {
+		sprite_index = Sfstand;	
+		image_xscale = 1;
+
+	}
+	
+
 }
