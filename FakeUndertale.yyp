@@ -35,7 +35,12 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
-    {"id":{"name":"Sstand","path":"sprites/Sstand/Sstand.yy",},},
+    {"id":{"name":"Swalkx","path":"sprites/Swalkx/Swalkx.yy",},},
+    {"id":{"name":"Sbwalky","path":"sprites/Sbwalky/Sbwalky.yy",},},
+    {"id":{"name":"Sfwalky","path":"sprites/Sfwalky/Sfwalky.yy",},},
+    {"id":{"name":"Sfstand","path":"sprites/Sfstand/Sfstand.yy",},},
+    {"id":{"name":"Sbstand","path":"sprites/Sbstand/Sbstand.yy",},},
+    {"id":{"name":"Sstandx","path":"sprites/Sstandx/Sstandx.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
