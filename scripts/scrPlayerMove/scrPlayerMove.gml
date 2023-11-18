@@ -28,19 +28,19 @@ function basic_motion(_speed, _collision_obj){
 	y += _move_y;
 	
 	if (_move_x > 0) {
-		sprite_index = Swalkx;
+		sprite_index = sFriskSideWalk;
 		image_xscale = 1;
 	} else if (_move_x < 0) {
-		sprite_index = Swalkx;
+		sprite_index = sFriskSideWalk;
 		image_xscale = -1;
 	} else if (_move_y > 0) {
-		sprite_index = Sfwalky;
+		sprite_index = sFriskWalkDown;
 		image_xscale = 1;
 	} else if (_move_y < 0) {
-		sprite_index = Sbwalky;
+		sprite_index = sFriskWalkUp;
 		image_xscale = 1;
 	} else {
-		sprite_index = Sfstand;	
+		sprite_index = sFriskDown;	
 		image_xscale = 1;
 
 	}

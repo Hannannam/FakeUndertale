@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sfstand",
-    "path": "sprites/Sfstand/Sfstand.yy",
+    "name": "sFriskDown",
+    "path": "sprites/sFriskDown/sFriskDown.yy",
   },
   "spriteMaskId": null,
   "visible": true,
