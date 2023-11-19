@@ -37,6 +37,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Game Mechanics","folderPath":"folders/Sprites/Game Mechanics.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Backgrounds","folderPath":"folders/Sprites/Backgrounds.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -47,6 +48,8 @@
   "resources": [
     {"id":{"name":"sFriskSideWalk","path":"sprites/sFriskSideWalk/sFriskSideWalk.yy",},},
     {"id":{"name":"sFriskWalkUp","path":"sprites/sFriskWalkUp/sFriskWalkUp.yy",},},
+    {"id":{"name":"sFloweyBed","path":"sprites/sFloweyBed/sFloweyBed.yy",},},
+    {"id":{"name":"sRuin","path":"sprites/sRuin/sRuin.yy",},},
     {"id":{"name":"sFriskWalkDown","path":"sprites/sFriskWalkDown/sFriskWalkDown.yy",},},
     {"id":{"name":"sFriskDown","path":"sprites/sFriskDown/sFriskDown.yy",},},
     {"id":{"name":"sFriskUp","path":"sprites/sFriskUp/sFriskUp.yy",},},
@@ -56,7 +59,9 @@
     {"id":{"name":"objDialogParent","path":"objects/objDialogParent/objDialogParent.yy",},},
     {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},},
     {"id":{"name":"objTeleport","path":"objects/objTeleport/objTeleport.yy",},},
+    {"id":{"name":"rmRuinBegin","path":"rooms/rmRuinBegin/rmRuinBegin.yy",},},
     {"id":{"name":"scrDialogTrigger","path":"scripts/scrDialogTrigger/scrDialogTrigger.yy",},},
+    {"id":{"name":"rmRuinFlowey","path":"rooms/rmRuinFlowey/rmRuinFlowey.yy",},},
     {"id":{"name":"sCollision32","path":"sprites/sCollision32/sCollision32.yy",},},
     {"id":{"name":"scrTeleport","path":"scripts/scrTeleport/scrTeleport.yy",},},
     {"id":{"name":"sFloweyDance","path":"sprites/sFloweyDance/sFloweyDance.yy",},},
@@ -75,8 +80,10 @@
     {"id":{"name":"rmWakeUp","path":"rooms/rmWakeUp/rmWakeUp.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rmRuinBegin","path":"rooms/rmRuinBegin/rmRuinBegin.yy",},},
     {"roomId":{"name":"rmWakeUp","path":"rooms/rmWakeUp/rmWakeUp.yy",},},
     {"roomId":{"name":"rmFlower","path":"rooms/rmFlower/rmFlower.yy",},},
+    {"roomId":{"name":"rmRuinFlowey","path":"rooms/rmRuinFlowey/rmRuinFlowey.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

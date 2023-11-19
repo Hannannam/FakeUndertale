@@ -8,4 +8,9 @@ function teleport(_room, _x, _y){
 	other.x = _x
 	other.y = _y
 	
+	show_debug_message("Test")
+	show_debug_message(objFrisk.x)
+	show_debug_message(other.x)	
+	show_debug_message("Test")
+
 }

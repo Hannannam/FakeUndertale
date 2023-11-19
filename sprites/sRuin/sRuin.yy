@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sTeleport",
-  "bbox_bottom": 31,
+  "name": "sRuin",
+  "bbox_bottom": 259,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 679,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1294660d-8fdd-43b8-9a2a-f3dfe4c3627e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5005883f-96ea-4c7c-a061-a1a8f6a6d7fa",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 260,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"240265c0-487a-4343-8cbf-ea90c3e668c2","blendMode":0,"displayName":"default","isLocked":false,"opacity":51.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b3909492-793c-48b0-b537-683009df2490","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Game Mechanics",
-    "path": "folders/Sprites/Game Mechanics.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Backgrounds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sTeleport",
+    "name": "sRuin",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1294660d-8fdd-43b8-9a2a-f3dfe4c3627e","path":"sprites/sTeleport/sTeleport.yy",},},},"Disabled":false,"id":"5937cde5-d391-4c9c-8f78-39b33991d7dc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5005883f-96ea-4c7c-a061-a1a8f6a6d7fa","path":"sprites/sRuin/sRuin.yy",},},},"Disabled":false,"id":"a3017f91-d2d2-4a60-a777-1afbb4fe4f95","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 680,
 }
