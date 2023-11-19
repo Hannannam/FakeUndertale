@@ -24,14 +24,7 @@ if (showing_dialog == true) {
 	
 	draw_set_alpha(alpha);
 	
-	draw_set_color(c_black);
-	draw_rectangle(_margin_side, _margin_top, display_get_gui_width() - _margin_side, _margin_top + _height, false);
-	
-	draw_set_color(c_white);
-	draw_rectangle(_margin_side + _border, _margin_top + _border, display_get_gui_width() - _border - _margin_side,  _margin_top + _height - _border, false);
-	
-	draw_set_color(c_black);
-	draw_rectangle(_margin_side +(_border*2), _margin_top +(_border*2), display_get_gui_width() - (_border*2) - _margin_side,  _margin_top + _height - (_border*2), false);
+	draw_box_gui(_margin_side, _margin_top, _height, _border);
 	
 	if (current_dialog.sprite != -1) {
 		// Scale Sprite by 2

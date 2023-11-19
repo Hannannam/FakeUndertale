@@ -3,9 +3,11 @@
 
 move_speed = 2;
 collision_obj = [objCollision32];
-last_sprite = sFriskDown;
+
 can_move = true;
 
 // Health
-hp_max = 20;
-hp = 5;
+hp_max = objFrisk.hp_max;
+hp = objFrisk.hp;
+
+
