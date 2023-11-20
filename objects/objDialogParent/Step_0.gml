@@ -6,6 +6,15 @@ if (is_active == true) {
 		if (dialog.count() <= 0) {
 			instance_destroy();
 			objFrisk.can_move = true;
+			
+			if (post_dialog_action != noone) {
+				if (room_exists(post_dialog_action)) {
+					scrTeleport_frisk(post_dialog_action, post_dialogue_x, post_dialogue_y)
+				} else {
+					// TODO: Teleport player after conversation
+				}
+			}
+			
 			return;
 		}
 	

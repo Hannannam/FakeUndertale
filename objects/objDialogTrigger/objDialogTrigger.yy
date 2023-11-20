@@ -32,5 +32,5 @@
     "path": "sprites/sDialogTrigger/sDialogTrigger.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

@@ -34,7 +34,7 @@ if (showing_dialog == true) {
 	draw_set_color(c_white);
 	draw_set_font(fntDialog);
 
-	draw_text_ext(_margin_side + _text_x, _margin_top + _text_y, current_dialog.message, 16, display_get_gui_width() - 192 - _margin_side);
+	draw_text_ext(_margin_side + _text_x, _margin_top + _text_y, current_dialog.message, 32, display_get_gui_width() - _text_x -_margin_side*2);
 	
 	alpha = lerp(alpha, 1, 0.06);
 }

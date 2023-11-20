@@ -30,5 +30,5 @@
     "path": "sprites/sCollision32/sCollision32.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

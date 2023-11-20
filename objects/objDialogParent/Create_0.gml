@@ -13,3 +13,7 @@ current_dialog = {};
 alpha = 0;
 
 is_active = false;
+
+post_dialog_action = noone;
+post_dialogue_x = -1;
+post_dialogue_y = -1;
